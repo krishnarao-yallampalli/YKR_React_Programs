@@ -3,8 +3,12 @@ import ReactDOM from "react-dom";
 
 ReactDOM.render(
   <div>
-    <h1>Hello World!</h1>
-    <p>This is a paragraph.</p>
+    <h1>Favorite Heros</h1>
+    <ul>
+      <li>Jesus</li>
+      <li>Paul</li>
+      <li>Peter</li>
+    </ul>
   </div>,
   document.getElementById("root")
 );
