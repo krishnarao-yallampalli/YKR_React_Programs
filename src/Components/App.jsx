@@ -1,6 +1,6 @@
 import React from "react";
-import Headers from "../Components/Headers";
-import Fruits from "../Components/Fruits";
+import Headers from "./Headers";
+import Fruits from "./Fruits";
 
 function App() {
   return (
