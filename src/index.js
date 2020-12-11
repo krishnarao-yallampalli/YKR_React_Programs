@@ -1,12 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from "./Components/Heading";
-import Fruits from "./Components/Fruits";
+import App from "./Components/App";
 
-ReactDOM.render(
-  <div>
-    <Header />
-    <Fruits />
-  </div>,
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
